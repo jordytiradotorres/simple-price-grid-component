@@ -4,6 +4,7 @@
   --color-cyan: hsl(179, 62%, 43%);
   --color-cyan-soft: hsl(179, 50%, 50%);
   --color-bright-yellow: hsl(71, 73%, 54%);
+  --color-bright-yellow-soft: hsl(71, 63%, 54%);
   --color-light-gray: hsl(204, 43%, 93%);
   --color-grayish-blue: hsl(218, 22%, 67%);
   --color-white: #ffffff;
@@ -104,6 +105,10 @@ button {
   font-size: 0.9em;
   cursor: pointer;
   box-shadow: 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: var(--color-bright-yellow-soft);
 }
 
 .component__subscriptionDetails {
