@@ -9,7 +9,7 @@
   --color-grayish-blue: hsl(218, 22%, 67%);
   --color-white: #ffffff;
 
-  --font-Karla: 'Karla', sans-serif;
+  --font-Karla: "Karla", sans-serif;
 }
 
 *,
@@ -125,7 +125,7 @@ button:hover {
   width: 13.125em;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .component {
     min-width: 46.25em;
     max-width: 46.25em;
